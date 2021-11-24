@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,aAAa;CAC7B;;AAED,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,qBAAqB;CACrC",
+    "sources": [
+        "otro.scss"
+    ],
+    "names": [],
+    "file": "otro.css"
+}
