@@ -47,16 +47,22 @@
         </div>
     </nav>
 
-<h1>Contacto</h1>
+    <h1>Contacto</h1>
 
-    <form class="contacto__formulario">
-        <label>Nombre:</label> <br>
-        <input type="text"> <br>
-        <label>Email:</label> <br>
-        <input type="email"> <br>
-        <br>
-        <input type="submit">
-    </form>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="exampleInputName">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
 
     <script src="js/bootstrap.js"> </script>
 
@@ -67,5 +73,6 @@
             </span>
         </div>
     </nav>
+</body>
 
 </html>
