@@ -15,25 +15,33 @@ h1 {
   margin-bottom: 3%;
 }
 
+h2 {
+  font-family: 'Staatliches';
+  text-align: center;
+  font-size: 30px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #181D31;
+}
+
+.logo {
+  width: 70%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-img {
+iframe {
   width: 100%;
-}
-
-body {
-  margin: 0%;
-  padding: 0%;
 }
 
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px;
+  padding: 5px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -42,11 +50,11 @@ body {
   -webkit-box-flex: 25%;
       -ms-flex: 25%;
           flex: 25%;
-  padding: 0px;
+  padding: 5px;
 }
 
 .column img {
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 @media (max-width: 800px) {
@@ -65,10 +73,6 @@ body {
   }
 }
 
-.logo {
-  width: 70%;
-}
-
 .container-fluid {
   background-color: #678983;
 }
@@ -76,12 +80,4 @@ body {
 .nav-link {
   color: blanchedalmond;
 }
-
-nav.navbar {
-  padding-right: 0%;
-}
-
-footer.footer {
-  padding: 0%;
-}
-/*# sourceMappingURL=galeria.css.map */
+/*# sourceMappingURL=backstages.css.map */

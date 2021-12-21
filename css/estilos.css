@@ -2,7 +2,58 @@ a {
   font-family: 'Staatliches';
 }
 
+body {
+  color: #F0E9D2;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
+  color: #181D31;
+}
+
+.quienessomos {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #181D31;
+}
+
+.quienessomostitulo {
+  font-size: 30px;
+  text-align: center;
+  color: #181D31;
+}
+
+.logo {
+  width: 70%;
+}
+
+.container-fluid {
+  background-color: #678983;
+}
+
+.nav-link {
+  color: blanchedalmond;
+}
+
+@media (max-width: 800px) {
+  .quienessomos {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: #181D31;
+  }
+}
+
+@media (max-width: 600px) {
+  .quienessomos {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: #181D31;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
